@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+	<link href="css/style.css" rel="stylesheet">	
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<head>
+	<meta charset="UTF-8">
+	<!-- 手機版縮放 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	<title>榮狄重機</title>
+	<!-- css連結 -->
+	<link rel="stylesheet" href="css/index.css">
+
+	<style type="text/css">
+        .box{
+            width: 300px;
+            height: 300px;
+            border-radius: 15%;
+            background-color: #afafaf;
+            animation: box 2s 0.5s;
+        }
+
+        @keyframes box{
+              0%{border-radius: 50%; opacity: 1;}
+             20%{border-radius: 20%; opacity: 0;}
+             40%{border-radius: 30%; opacity: 1;}
+            100%{border-radius: 15%; opacity: 1;}
+        }
+	</style>
+	
+</head>
+
+<body>
+<!-- 漢堡語法 -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<a class="navbar-brand" href="index.html"><img src="img/j-dream.png" ></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+		  </button>
+
+<!-- 選單 -->
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">關於榮狄 </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">最新消息</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="motorcycle.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          車種介紹
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		  <a class="dropdown-item" href="motorcycle.html">合作品牌</a>
+          <a class="dropdown-item" href="#">YAMAHA</a>
+		  <a class="dropdown-item" href="#">SUZUKI</a>
+		  <a class="dropdown-item" href="#">PIAGGIO</a>
+		  <a class="dropdown-item" href="#">PEUGEOT</a>
+		  <a class="dropdown-item" href="pricepage.html">KAWASAKI</a>
+		  <a class="dropdown-item" href="#">HONDA</a>
+		  <a class="dropdown-item" href="#">HARLEY</a>
+		  <a class="dropdown-item" href="#">BMW</a>
+		  <a class="dropdown-item" href="#">ADIVA</a>
+         
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#"  >周邊部品</a>
+	  </li>
+	  <li class="nav-item">
+        <a class="nav-link " href="#" >保養維修</a>
+	  </li>
+	  
+	  
+    </ul>
+    
+</nav>
+		  
+	<div class="banner">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <!-- 輪播內容 -->
+		  <div class="carousel-inner">
+			<div class="carousel-item">
+			  <img src="img/banner1.jpg" class="d-block w-100" alt="">
+			</div>
+			<div class="carousel-item active">
+			  <img src="img/banner2.jpg" class="d-block w-100" alt="">
+			</div>
+			<div class="carousel-item">
+			  <img src="img/banner4.jpg" class="d-block w-100" alt="">
+			</div>
+		  </div>
+		  <!-- 左右箭頭 -->
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  </a>
+		</div>
+	</div>	
+<!-- 進入內容 -->
+<div class="news" id="section1">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<p class="title text-center">最新消息</p>
+				<hr class="title_line">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-12 col-md-4">
+				<div class="card">
+					<div class="box text-center">
+						<img id="png" src="img/three.png" alt="#">
+						 <div class="box_text">三年租購</div>
+						 <!-- 三年租購 人員異動 報價單 -->
+					</div>
+				</div>
+			</div>
+			<div class="col col-12 col-md-4">
+				<div class="card">
+					<div class="box">
+						<img id="png" src="img/emp.png" alt="#">
+						 <div class="box_text">人員異動</div>
+						 <!-- 三年租購 人員異動 報價單 -->
+					</div>
+				</div>
+			</div>
+			<div class="col col-12 col-md-4">
+				<div class="card">
+					<div class="box">
+						<img id="png" src="img/pri.png" alt="#">
+						 <div class="box_text">報價單</div>
+						 <!-- 三年租購 人員異動 報價單 -->
+					</div>
+				</div>		
+			</div>
+			
+			
+	</div>
+	<br><br>
+</div>
+
+<div class="product" id="section2">
+	<div class="container">
+		<div class="row">
+			<div class="col-12"><br><br>
+				<p class="title text-center"><span style="color:white;"><br>超熱門最新車款</p></span>
+				<hr class="title_line">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-6 col-md-3">
+				<div class="card">
+					<img src="img/bike1.png">
+					<p class="product_name text-right"> <span style="color:white;">KATANA <br>SUZUKI</p>
+				</div></span>
+			</div>
+			<div class="col col-6 col-md-3">
+				<div class="card">
+					<img src="img/bike2.png">
+					<p class="product_name text-right"><span style="color:white;">R15 V3 /<br>YAMAHA</p>
+				</div></span>
+			</div>
+			<div class="col col-6 col-md-3">
+				<div class="card">
+					<img src="img/bike3.png">
+					<p class="product_name text-right"><span style="color:white;">Ninja 400 /<br>Kawasaki</p>
+				</div></span>
+			</div>
+			<div class="col col-6 col-md-3">
+				<div class="card">
+					<img src="img/bike4.png">
+					<p class="product_name text-right"><span style="color:white;">R3 /<br>YAMAHA</p>
+				</div>
+			</div>
+			
+			<link rel="stylesheet" href="https://blog.xuite.net/auster.lai/twblog/516895682">
+			<div class="container">
+			  <div class="row">
+				<div class="col text-center"><br>
+					<a class="btn btn-outline-light" href="motorcycle.html" role="button">想看更多...</a>
+				</div>
+			  </div>
+			</div>
+				</div>
+
+		</div>
+	</div>
+</div>
+
+
+	<!-- JS連結 -->
+
+</body>
+
+<div id="footer">版權所有© 2016-2020 榮秋貿易股份有限公司 Design By IDEA </div>
+
+</html>
+
+
+

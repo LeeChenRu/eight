@@ -1,0 +1,426 @@
+body{
+  padding: 10 20 10 20px;
+}
+
+/* 導覽列 */
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+p {
+	font-size: 16px;
+}
+.navbar-brand img {
+	height: 50px;
+	background:linear-gradient(#e0e0e0); 
+}
+@media (min-width: 768px) {
+	/*nav選單*/
+	.navbar{
+		padding-left:50px!important;
+		padding-right:50px!important; 
+	}
+	
+	}
+	.banner {
+		margin-top: 76px;
+	}
+	.banner .container-fluid {
+		padding:0!important;
+	}
+	.news {
+		padding:88px 0;
+		background:linear-gradient(#ebebeb,#e0dfdf); 
+	}
+	
+	
+	
+	.news img {
+		width:100%;
+		margin-bottom:10px;
+		padding: 10px 5px;
+	
+	}
+	.news .card{
+		background-color: transparent;
+		border-color: transparent;
+		
+	}
+	
+	
+	.title {
+		font-size:20px;
+		font-weight: bold;
+	}
+	
+	.title_line {
+		border-color:#d1d1d1;
+	}
+	
+	.story {
+		padding: 50px 0;
+		font-size: 18px;
+	}
+	
+	.story span {
+		font-style: italic;
+		font-size: 20px;
+		display: block;
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+	.title_line {
+		margin-bottom: 50px;
+	}
+	.product {
+		background-color: #1d1d1d;
+		padding-bottom:88px;
+	}
+	.product .card {
+		background-color: transparent;
+		border-color: transparent;
+		padding: 0px 0px;
+		margin-bottom: 0px;
+	}
+	.product img {
+		width:100%;
+		margin-bottom:0px;
+		padding: 0px 0px;
+	}
+	
+	.product img:hover {
+		opacity: 0.8;
+	}
+	.product_name {
+		padding: 10px;
+	}
+	.contact {
+		height:650px;
+		padding-top: 100px;
+		background-image: url(../img/contact_bg.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: top center;
+	}
+	
+	.contact .title {
+		color:#ffffff;
+	}
+	
+	.contact .form {
+		max-width: 600px;
+		margin:0 auto;
+		padding: 0 30px;
+		color:#ffffff;
+	}
+	
+	.form input {
+		height: 40px;
+		width: 100%;
+		background-color: #ffffff;
+		border-radius: 5px;
+		border:0px;
+		padding: 12px;
+		resize: vertical;
+		color: #000000;
+		margin:7.5px 0;
+	}
+	
+	.form textarea {
+		height: 200px;
+		width: 100%;
+		background-color: #ffffff;
+		border-radius: 5px;
+		border:0px;
+		padding: 12px;
+		resize: vertical;
+		color: #000000;
+		margin:7.5px 0;
+	}
+	
+	input[type=submit] {
+	  background-color: #292929;
+	  color: white;
+	  cursor: pointer;
+	  width: 100px!important;
+	  height: 48px;
+	}
+	
+	input[type=submit]:hover {
+	  background-color: #272727;
+	}
+	footer {
+		background-color: #292929;
+		padding:20px 0; 
+		}
+		
+		footer p {
+		line-height: 39px;
+		color: white;
+		}
+
+	
+	
+
+/* 車資訊  */
+	
+   /* .card-body{
+     display: flex;
+   } */
+ 
+
+   .card {
+     width: 80%;
+     margin: auto;
+     color: rgb(56, 56, 56);
+     line-height: 2;
+     border: 0;
+   }
+
+   .card-body{
+background-color: #F4F4F4;
+margin: 0.5em;
+margin-top: 3.2em;
+margin-bottom: 3.2em;
+padding: 3rem 2rem;
+   }
+   
+
+
+/* 車種分類  */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma;
+}
+
+ul { list-style-type: none; }
+
+a {
+  color: #b63b4d;
+  text-decoration: none;
+}
+
+/** =======================
+ * Contenedor Principal
+ ===========================*/
+
+
+h1 {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 80px;
+}
+
+h1 a {
+  color: #c12c42;
+  font-size: 16px;
+}
+
+.accordion {
+  width: 100%;
+  max-width:90%;
+  margin: 70px auto 80px;
+  background: black;
+  padding-left: 0%;
+}
+
+.accordion .link {
+  cursor: pointer;
+  display: block;
+  padding: 15px 15px 15px 42px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #CCC;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li:last-child .link { border-bottom: 0; }
+
+.accordion li i {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-size: 18px;
+  color: #595959;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+  right: 12px;
+  left: auto;
+  font-size: 16px;
+}
+
+.accordion li.open .link { color: #b63b4d; }
+
+.accordion li.open i { color: #b63b4d; }
+
+.accordion li.open i.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/**
+ * Submenu
+ -----------------------------*/
+
+
+.submenu {
+  display: none;
+  background: white;
+  font-size: 14px;
+}
+
+.submenu li { border-bottom: 1px solid #e6e6e6; }
+
+.submenu a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 12px;
+  padding-left: 42px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.submenu a:hover {
+  background: #b63b4d;
+  color: #FFF;
+}
+
+
+
+
+
+
+/* 表格 */
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+    margin:10 20 10 20px;
+  }
+  
+  table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+
+
+  #footer {
+    all:none;
+    width: 130%;
+    margin: 0%;
+    margin-top: 5rem;
+    margin-left: -15%;
+    margin-right: -10em;
+    padding: 1rem;
+    background-color:rgb(46, 46, 46);
+    text-align: center;
+   color: #CCC;
+   margin-bottom: -30px;
+
+
+  }
+
